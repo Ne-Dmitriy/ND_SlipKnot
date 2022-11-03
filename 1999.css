@@ -1,0 +1,53 @@
+html {
+	cursor: default;
+}
+
+body {
+	background-image: url(pics/all.jpg);
+}  
+
+a {
+	text-decoration: none;
+	font-family: math;
+	font-size: 25px;
+	color: #b0aaaa; 
+} 
+
+.aud {
+	font-family: math;
+	font-size: 25px;
+	color: #b0aaaa;
+	margin-left: 30px;
+	font-weight: 460;
+} 
+
+.block {
+	display: inline-block;
+	width: 350px; 
+}
+ 
+audio {
+	margin-bottom: 66px;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #b0aaaa;
+}
+
+audio::-webkit-media-controls-mute-button {
+  background-color: #6a0b0b;
+  border-radius: 50%;
+}
+ 
+audio::-webkit-media-controls-play-button:hover {
+  background-color: #a9a0a0;
+  border-radius: 50%;
+}
+
+audio::-webkit-media-controls-timeline {
+  background-color: #b0b0b0;
+  border-radius: 25px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
